@@ -7,7 +7,9 @@ LIGHT BLUE: #457B9D
 DARK BLUE: #1D3557
  
 */
- 
+
+/* Body and hero styling -start */
+
 body {
     margin: 0;
     text-align: center;
@@ -29,32 +31,36 @@ h1 {
     background-color: #1D3557;
     width: 400px;
     margin: 10px auto 20px auto;
+    padding: 5px 0;
 }
 
 h2 {
     background-color:  #A8DADC;
     width: 300px;
     margin: 0 auto 50px auto;
-    padding: 5px 10px 5px 10px;
-    
+    padding: 5px 10px 5px 10px; 
 }
+
 
 .hero {
     background-image: url("./images/capitol1.jpg");
     background-size: cover;
-    height: 400px;
+    height: 200px;
     padding: 75px 0;
 }
+/* Body and hero styling -end */
+
+/* Activities styling -start */
 
 #activities {
     background-color: #A8DADC;
-    height: 400px;
     padding: 25px 0 0;
 }
 
 .activities-class {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 10px 0 10px 0;
 }
 
@@ -62,6 +68,9 @@ h2 {
     width: 300px;
 }
 
+/* Activities styling -end */
+
+/* Guide styling -start */
 .guide {
     display: flex;
     padding: 25px 0px;
@@ -79,3 +88,4 @@ h2 {
     border-radius: 10px;
     border: 3px solid #1D3557
 }
+/* Guide styling -end */
